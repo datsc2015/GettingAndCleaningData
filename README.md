@@ -1,5 +1,13 @@
 # GettingAndCleaningData: Course Project
-##Create R script - run_analysis.R that does the following: 
+
+###Data source
+A full description is available at the site where the data was obtained: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Here are the data for the project: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+###Create R script - run_analysis.R that does the following: 
 1.Merges the training and the test sets to create one data set
 
 2.Extracts only the measurements on the mean and standard deviation for each measurement 
@@ -10,8 +18,15 @@
 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-A full description is available at the site where the data was obtained: 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+###Steps to let run_analysis.R work
+1.Unzip the data set into a folder into your work directory, ex, C:\Users\yourUserName\GetingandCleaningData
 
-Here are the data for the project: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+2.Files in the above work directory: data files and run_analysis.R
+
+3.In RStudio: 
+setwd("C:\Users\yourUserName\GetingandCleaningData") 
+source("run_analysis.R")
+
+
+
+
